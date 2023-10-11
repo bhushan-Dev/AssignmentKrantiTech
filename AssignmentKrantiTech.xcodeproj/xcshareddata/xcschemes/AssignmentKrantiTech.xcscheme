@@ -28,6 +28,17 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "529001E52AD67D2C00FEE1CB"
+               BuildableName = "AssignmentKrantiTechTests.xctest"
+               BlueprintName = "AssignmentKrantiTechTests"
+               ReferencedContainer = "container:AssignmentKrantiTech.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529001E92AD67D2C00FEE1CB /* AssignmentKrantiTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529001E82AD67D2C00FEE1CB /* AssignmentKrantiTechTests.swift */; };
 		861A62402440674A00655CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A623F2440674A00655CC8 /* AppDelegate.swift */; };
 		861A62422440674A00655CC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A62412440674A00655CC8 /* SceneDelegate.swift */; };
 		861A62442440674A00655CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A62432440674A00655CC8 /* LoginViewController.swift */; };
@@ -20,7 +21,19 @@
 		FBDF11BAFFEED941EDC4D26C /* Pods_AssignmentKrantiTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDFAE1570D6337B6D3D98DE /* Pods_AssignmentKrantiTech.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		529001EA2AD67D2C00FEE1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861A62342440674A00655CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 861A623B2440674A00655CC8;
+			remoteInfo = AssignmentKrantiTech;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		529001E62AD67D2C00FEE1CB /* AssignmentKrantiTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentKrantiTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		529001E82AD67D2C00FEE1CB /* AssignmentKrantiTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentKrantiTechTests.swift; sourceTree = "<group>"; };
 		5D0D06A36334C328223789CA /* Pods-AssignmentKrantiTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentKrantiTech.release.xcconfig"; path = "Target Support Files/Pods-AssignmentKrantiTech/Pods-AssignmentKrantiTech.release.xcconfig"; sourceTree = "<group>"; };
 		6EDFAE1570D6337B6D3D98DE /* Pods_AssignmentKrantiTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentKrantiTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861A623C2440674A00655CC8 /* AssignmentKrantiTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentKrantiTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		529001E32AD67D2C00FEE1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		861A62392440674A00655CC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,10 +87,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		529001E72AD67D2C00FEE1CB /* AssignmentKrantiTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				529001E82AD67D2C00FEE1CB /* AssignmentKrantiTechTests.swift */,
+			);
+			path = AssignmentKrantiTechTests;
+			sourceTree = "<group>";
+		};
 		861A62332440674A00655CC8 = {
 			isa = PBXGroup;
 			children = (
 				861A623E2440674A00655CC8 /* AssignmentKrantiTech */,
+				529001E72AD67D2C00FEE1CB /* AssignmentKrantiTechTests */,
 				861A623D2440674A00655CC8 /* Products */,
 				0716FC637EC91A2A9D6F7A26 /* Pods */,
 				2E5EE2358615B1679654ACDC /* Frameworks */,
@@ -81,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				861A623C2440674A00655CC8 /* AssignmentKrantiTech.app */,
+				529001E62AD67D2C00FEE1CB /* AssignmentKrantiTechTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +160,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		529001E52AD67D2C00FEE1CB /* AssignmentKrantiTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529001EE2AD67D2C00FEE1CB /* Build configuration list for PBXNativeTarget "AssignmentKrantiTechTests" */;
+			buildPhases = (
+				529001E22AD67D2C00FEE1CB /* Sources */,
+				529001E32AD67D2C00FEE1CB /* Frameworks */,
+				529001E42AD67D2C00FEE1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529001EB2AD67D2C00FEE1CB /* PBXTargetDependency */,
+			);
+			name = AssignmentKrantiTechTests;
+			productName = AssignmentKrantiTechTests;
+			productReference = 529001E62AD67D2C00FEE1CB /* AssignmentKrantiTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		861A623B2440674A00655CC8 /* AssignmentKrantiTech */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 861A62502440674C00655CC8 /* Build configuration list for PBXNativeTarget "AssignmentKrantiTech" */;
@@ -155,10 +203,14 @@
 		861A62342440674A00655CC8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Bhushan Udawant";
 				TargetAttributes = {
+					529001E52AD67D2C00FEE1CB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 861A623B2440674A00655CC8;
+					};
 					861A623B2440674A00655CC8 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -178,11 +230,19 @@
 			projectRoot = "";
 			targets = (
 				861A623B2440674A00655CC8 /* AssignmentKrantiTech */,
+				529001E52AD67D2C00FEE1CB /* AssignmentKrantiTechTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		529001E42AD67D2C00FEE1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		861A623A2440674A00655CC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +298,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		529001E22AD67D2C00FEE1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529001E92AD67D2C00FEE1CB /* AssignmentKrantiTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		861A62382440674A00655CC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +321,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529001EB2AD67D2C00FEE1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 861A623B2440674A00655CC8 /* AssignmentKrantiTech */;
+			targetProxy = 529001EA2AD67D2C00FEE1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		861A62452440674A00655CC8 /* Main.storyboard */ = {
@@ -274,6 +350,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		529001EC2AD67D2C00FEE1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.PizzaApp.AssignmentKrantiTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssignmentKrantiTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssignmentKrantiTech";
+			};
+			name = Debug;
+		};
+		529001ED2AD67D2C00FEE1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.PizzaApp.AssignmentKrantiTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssignmentKrantiTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssignmentKrantiTech";
+			};
+			name = Release;
+		};
 		861A624E2440674C00655CC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -427,6 +549,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		529001EE2AD67D2C00FEE1CB /* Build configuration list for PBXNativeTarget "AssignmentKrantiTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529001EC2AD67D2C00FEE1CB /* Debug */,
+				529001ED2AD67D2C00FEE1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		861A62372440674A00655CC8 /* Build configuration list for PBXProject "AssignmentKrantiTech" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
