@@ -70,7 +70,7 @@ class Service {
                             completionHandler(.success, nil)
                         }
                     } else {
-                        print("Error at server validations ")
+                        print("Error at server validations")
                         completionHandler(nil, .error)
                     }
                 }
